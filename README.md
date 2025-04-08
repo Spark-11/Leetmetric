@@ -11,13 +11,8 @@ A dashboard for leetcode users
 - CSS 3
 - Javascript
 
-## Installation & Local Setup
+## Run on Local Setup
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Spark-11/Leetmetric.git
-   cd Leetmetric
-2. **Request for a demo server**
-   ```bash
-   https://cors-anywhere.herokuapp.com/
+1. Request for a demo server from <a>https://cors-anywhere.herokuapp.com/</a>
+2. Run the leetmetric.html
 
