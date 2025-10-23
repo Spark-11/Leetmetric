@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded', function(){
             searchBtn.textContent = 'Searching..'
             searchBtn.disabled = true;
             // const response = await fetch(url)
-            const proxyUrl = 'https://cors-anywhere-v6qu.onrender.com'
-            const targetUrl = 'https://leetcode.com/graphql/'
+            const proxyUrl = 'https://cors-anywhere-v6qu.onrender.com/';
+            const targetUrl = 'https://leetcode.com/graphql/';
             const myHeaders = new Headers();
             myHeaders.append("content-type", "application/json")
 
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function(){
                 redirect: "follow"
             }
 
-            const response = await fetch(proxyUrl+targetUrl, requestOptions)
+            const response = await fetch(proxyUrl + targetUrl, requestOptions);
             if(!response.ok){
                 throw new Error('Unable to fetch the user details.')
             }
