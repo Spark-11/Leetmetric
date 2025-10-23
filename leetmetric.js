@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function(){
             searchBtn.textContent = 'Searching..'
             searchBtn.disabled = true;
             // const response = await fetch(url)
-            const proxyUrl = 'https://cors-anywhere.herokuapp.com/'
+            const proxyUrl = 'https://cors-anywhere-v6qu.onrender.com'
             const targetUrl = 'https://leetcode.com/graphql/'
             const myHeaders = new Headers();
             myHeaders.append("content-type", "application/json")
